@@ -63,6 +63,7 @@ message:
   title: " IP Information "
   icon: "fa fa-desktop"
 
+
 # Optional navbar
 links: [] # Allows for navbar (dark mode, layout, and search) without any links
 #links:
@@ -169,6 +170,15 @@ services:
         subtitle: "认证列表"
         tag: "aws-tc"
         url: "https://aws.amazon.com/cn/certification/"
+        target: "_blank"
+  - name: "Courses"
+    logo: "assets/tools/books.webp"
+    items:
+      - name: "AWS 小白书"
+        logo: "assets/tools/link.png"
+        subtitle: "未完结"
+        tag: "aws-tc"
+        url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3072229903911878659#wechat_redirect"
         target: "_blank"
   - name: "Weather"
     logo: "assets/tools/weather.png"
