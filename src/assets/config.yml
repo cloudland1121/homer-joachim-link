@@ -63,14 +63,13 @@ message:
   #
   # Real example using chucknorris.io for showing Chuck Norris facts as messages:
   url: https://ipinfo.io/?token=fc01d7d3e5d7e4
-  mapping:
-    content: 'ip'
-    content: 'region'
+#  mapping:
+#    content: '.'
   refreshInterval: 100000
   style: "is-success"
   title: " IP Information"
   icon: "fa fa-desktop"
-#  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
