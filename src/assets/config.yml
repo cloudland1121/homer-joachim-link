@@ -180,6 +180,12 @@ services:
         tag: "aws-tc"
         url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3072229903911878659#wechat_redirect"
         target: "_blank"
+      - name: "EKS 简明教程"
+        logo: "assets/tools/link.png"
+        subtitle: "未完结"
+        tag: "aws-tc"
+        url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3071844734247895042#wechat_redirect"
+        target: "_blank"
   - name: "Weather"
     logo: "assets/tools/weather.png"
     items:
