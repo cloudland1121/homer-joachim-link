@@ -117,6 +117,7 @@ services:
         units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
         background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
         type: "OpenWeather"
+        
       - name: "Macau"
         location: "澳门" # your location.
         locationId: "1821275" # Optional: Specify OpenWeatherMap city ID for better accuracy
