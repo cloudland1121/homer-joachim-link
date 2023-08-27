@@ -89,7 +89,7 @@ services:
     # logo: "path/to/logo"
     items:
       - name: "AWS China"
-#        logo: "assets/tools/sample.png"
+        logo: "assets/tools/link.png"
         # Alternatively a fa icon can be provided:
         icon: "fa fa-amazon"
         subtitle: "Bookmark example"
