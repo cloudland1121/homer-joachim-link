@@ -88,13 +88,13 @@ services:
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
     # logo: "path/to/logo"
     items:
-      - name: "AWS Global"
-        logo: "assets/tools/sample.png"
+      - name: "AWS China"
+#        logo: "assets/tools/sample.png"
         # Alternatively a fa icon can be provided:
-        # icon: "fab fa-jenkins"
+        icon: "fa fa-amazon"
         subtitle: "Bookmark example"
-        tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        tag: "aws"
+        url: "https://www.amazonaws.cn/"
         target: "_blank" # optional html tag target attribute
       - name: "Another one"
         logo: "assets/tools/sample2.png"
