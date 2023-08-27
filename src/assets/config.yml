@@ -16,12 +16,12 @@ defaults:
   # auto, light, dark
   colorTheme: auto
 
-theme: macchiato
+theme: default
 
 stylesheet:
   - 'assets/theme/catppuccin-macchiato.css'
 
-logo: 'assets/logo.png' # example: assets/logo/dark_circle.png
+#logo: 'assets/logo.png' # example: assets/logo/dark_circle.png
 
 colors:
   light:
@@ -62,7 +62,7 @@ message:
   # refreshInterval: 10000 # Optional: time interval to refresh message
   #
   # Real example using chucknorris.io for showing Chuck Norris facts as messages:
-  url: https://api.chucknorris.io/jokes/random
+  url: https://ipinfo.io/?token=fc01d7d3e5d7e4
   mapping:
     title: 'ip'
     content: 'value'
