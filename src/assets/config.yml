@@ -12,7 +12,7 @@ connectivityCheck: true
 
 defaults:
   # columns, list
-  layout: list
+  layout: columns
   # auto, light, dark
   colorTheme: light
 
@@ -90,19 +90,23 @@ services:
     items:
       - name: "AWS China"
         logo: "assets/tools/link.png"
-        # Alternatively a fa icon can be provided:
-        icon: "fa fa-cloud"
-        subtitle: "Bookmark example"
+#        icon: "fa fa-cloud"
+        subtitle: "中国区主页"
         tag: "aws"
         url: "https://www.amazonaws.cn/"
         target: "_blank" # optional html tag target attribute
-      - name: "Another one"
-        logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
-        tag: "app"
-        # Optional tagstyle
-        tagstyle: "is-success"
-        url: "#"
+      - name: "AWS Global"
+        logo: "assets/tools/link.png"
+        subtitle: "Global主页"
+        tag: "aws"
+        url: "https://aws.amazon.com/"
+        target: "_blank" # optional html tag target attribute
+      - name: "AWS Global"
+        logo: "assets/tools/link.png"
+        subtitle: "Global主页"
+        tag: "aws"
+        url: "https://aws.amazon.com/"
+        target: "_blank" # optional html tag target attribute
   - name: "Other group"
     icon: "fas fa-heartbeat"
     items:
