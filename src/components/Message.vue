@@ -80,7 +80,7 @@ export default {
       // map property from message into mapped according to mapping config (only if field has a value):
       for (const prop in this.item.mapping)
         if (message[this.item.mapping[prop]])
-          mapped[prop] = message[this.item.mapping[prop]];
+          mapped[prop] += message[this.item.mapping[prop]];
       return mapped;
     },
   },

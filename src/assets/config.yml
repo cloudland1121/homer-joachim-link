@@ -65,7 +65,7 @@ message:
   url: https://ipinfo.io/?token=fc01d7d3e5d7e4
   mapping:
     content: 'ip'
-    region: 'region'
+    content: 'region'
   refreshInterval: 100000
   style: "is-success"
   title: " IP Information"
