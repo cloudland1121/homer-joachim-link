@@ -55,12 +55,6 @@ colors:
 
 # Optional message
 message:
-  # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
-  # mapping: # allows to map fields from the remote format to the one expected by Homer
-  #   title: 'id' # use value from field 'id' as title
-  #   content: 'value' # value from field 'value' as content
-  # refreshInterval: 10000 # Optional: time interval to refresh message
-  #
   url: https://ipinfo.io/?token=fc01d7d3e5d7e4
   mapping:
     content: 'ip'
@@ -68,7 +62,6 @@ message:
   style: "is-success"
   title: " IP Information "
   icon: "fa fa-desktop"
-  
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
