@@ -64,7 +64,7 @@ message:
   icon: "fa fa-desktop"
 
 # Optional navbar
-# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links: [] # Allows for navbar (dark mode, layout, and search) without any links
 #links:
 #  - name: "Cloud Console"
 #    icon: "fa fa-cloud"
