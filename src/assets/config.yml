@@ -19,7 +19,7 @@ defaults:
 theme: macchiato
 
 stylesheet:
-  - 'assets/catppuccin-macchiato.css'
+  - 'assets/theme/catppuccin-macchiato.css'
 
 logo: 'assets/logo.png' # example: assets/logo/dark_circle.png
 
