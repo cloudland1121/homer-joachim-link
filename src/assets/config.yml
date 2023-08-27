@@ -69,6 +69,7 @@ message:
   style: "is-success"
   title: " IP Information"
   icon: "fa fa-desktop"
+  content: ""
   
 
 # Optional navbar
