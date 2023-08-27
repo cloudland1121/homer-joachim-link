@@ -16,7 +16,7 @@ defaults:
   # auto, light, dark
   colorTheme: auto
 
-#theme: default
+theme: default
 
 stylesheet:
   - 'assets/themes/catppuccin-macchiato.css'
