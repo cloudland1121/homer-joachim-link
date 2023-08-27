@@ -10,6 +10,9 @@
       v-if="message.content"
       class="message-body"
       v-html="message.content"
+      v-if="message.region"
+      class="message-body"
+      v-html="message.region"
     ></div>
   </article>
 </template>
