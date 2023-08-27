@@ -17,6 +17,11 @@ defaults:
   colorTheme: auto
 
 theme: default
+stylesheet:
+  - 'assets/catppuccin-macchiato.css'
+
+logo: 'assets/logo.png' # example: assets/logo/dark_circle.png
+
 colors:
   light:
     highlight-primary: "#3367d6"
