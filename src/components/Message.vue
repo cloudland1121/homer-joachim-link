@@ -50,6 +50,9 @@ export default {
         if (this.item.mapping) {
           fetchedMessage = this.mapRemoteMessage(fetchedMessage);
         }
+        else {
+          fetchedMessage[content] = await this.downloadMessage(this.item.url);
+        }
 
         // keep the original config value if no value is provided by the endpoint
         const message = this.message;
