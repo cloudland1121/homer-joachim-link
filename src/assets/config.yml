@@ -17,6 +17,7 @@ defaults:
   colorTheme: auto
 
 theme: macchiato
+
 stylesheet:
   - 'assets/catppuccin-macchiato.css'
 
