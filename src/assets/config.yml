@@ -63,7 +63,6 @@ message:
   #
   # Real example using chucknorris.io for showing Chuck Norris facts as messages:
   url: https://ipinfo.io/?token=fc01d7d3e5d7e4
-  
   mapping:
     content: 'ip'
     region: 'region'
