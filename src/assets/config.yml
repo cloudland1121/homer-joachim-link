@@ -21,7 +21,7 @@ theme: default
 stylesheet:
   - 'assets/theme/catppuccin-macchiato.css'
 
-#logo: 'assets/logo.png' # example: assets/logo/dark_circle.png
+logo: 'assets/logo.png' # example: assets/logo/dark_circle.png
 
 colors:
   light:
@@ -65,30 +65,30 @@ message:
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
-links:
-  - name: "Cloud Console"
-    icon: "fab fa-cloud"
-    url: "https://github.com/bastienwirtz/homer"
-    target: "_blank" # optional html tag target attribute
-  - name: "link 2"
-    icon: "fas fa-book"
-    url: "https://github.com/bastienwirtz/homer"
-  # this will link to a second homer page that will load config from page2.yml and keep default config values as in config.yml file
-  # see url field and assets/page.yml used in this example:
-  - name: "Second Page"
-    icon: "fas fa-file-alt"
-    url: "#page2"
+#links:
+#  - name: "Cloud Console"
+#    icon: "fa fa-cloud"
+#    url: "#Application"
+##    target: "_blank" # optional html tag target attribute
+#  - name: "link 2"
+#    icon: "fas fa-book"
+#    url: "https://github.com/bastienwirtz/homer"
+#  # this will link to a second homer page that will load config from page2.yml and keep default config values as in config.yml file
+#  # see url field and assets/page.yml used in this example:
+#  - name: "Second Page"
+#    icon: "fas fa-file-alt"
+#    url: "#page2"
 
 # Services
 # First level array represents a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Application"
-    icon: "fas fa-code-branch"
+  - name: "Cloud Console"
+    icon: "fa fa-cloud"
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
     # logo: "path/to/logo"
     items:
-      - name: "Awesome app"
+      - name: "AWS Global"
         logo: "assets/tools/sample.png"
         # Alternatively a fa icon can be provided:
         # icon: "fab fa-jenkins"
