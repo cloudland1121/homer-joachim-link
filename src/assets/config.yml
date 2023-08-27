@@ -125,6 +125,15 @@ services:
         tag: "aws"
         url: "https://wxd.awsapps.com/start/"
         target: "_blank"
+  - name: "AWS Training"
+    logo: "assets/tools/awstc.webp"
+    items:
+      - name: "AWS Training"
+        logo: "assets/tools/link.png"
+        subtitle: "aws.training"
+        tag: "aws"
+        url: "https://www.aws.training/"
+        target: "_blank"
   - name: "Weather"
     logo: "assets/tools/weather.png"
     items:
