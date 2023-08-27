@@ -91,13 +91,13 @@ services:
       - name: "AWS China"
         logo: "assets/tools/link.png"
 #        icon: "fa fa-cloud"
-        subtitle: "中国区主页"
+        subtitle: "www.amazonaws.cn"
         tag: "aws"
         url: "https://www.amazonaws.cn/"
         target: "_blank" # optional html tag target attribute
       - name: "AWS Global"
         logo: "assets/tools/link.png"
-        subtitle: "Global主页"
+        subtitle: "aws.amazon.com"
         tag: "aws"
         url: "https://aws.amazon.com/"
         target: "_blank" # optional html tag target attribute
@@ -110,15 +110,13 @@ services:
   - name: "Other group"
     icon: "fas fa-heartbeat"
     items:
-      - name: "Pi-hole"
-        logo: "assets/tools/sample.png"
-        # subtitle: "Network-wide Ad Blocking" # optional, if no subtitle is defined, PiHole statistics will be shown
-        tag: "other"
-        url: "http://192.168.0.151/admin"
-        type: "PiHole" # optional, loads a specific component that provides extra features. MUST MATCH a file name (without file extension) available in `src/components/services`
-        target: "_blank" # optional html a tag target attribute
-        # class: "green" # optional custom CSS class for card, useful with custom stylesheet
-        # background: red # optional color for card to set color directly without custom stylesheet
+      - name: "Weather"
+        location: "珠海" # your location.
+        locationId: "1790437" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "square" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
 
 
 proxy: ~
