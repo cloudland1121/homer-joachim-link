@@ -91,7 +91,7 @@ services:
       - name: "AWS China"
         logo: "assets/tools/link.png"
         # Alternatively a fa icon can be provided:
-        icon: "fa fa-amazon"
+        icon: "fa fa-cloud"
         subtitle: "Bookmark example"
         tag: "aws"
         url: "https://www.amazonaws.cn/"
