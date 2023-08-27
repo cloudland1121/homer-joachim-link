@@ -119,6 +119,12 @@ services:
         tag: "huawei"
         url: "https://www.huaweicloud.com/"
         target: "_blank"
+      - name: "AWS SSO"
+        logo: "assets/tools/link.png"
+        subtitle: "wxd"
+        tag: "aws"
+        url: "https://wxd.awsapps.com/start/"
+        target: "_blank"
   - name: "Weather"
     logo: "assets/tools/weather.png"
     items:
