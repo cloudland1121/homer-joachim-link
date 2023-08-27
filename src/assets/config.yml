@@ -21,7 +21,7 @@ theme: default
 stylesheet:
   - 'assets/theme/catppuccin-macchiato.css'
 
-logo: 'assets/logo.png' # example: assets/logo/dark_circle.png
+logo: 'assets/tools/logo.png' # example: assets/logo/dark_circle.png
 
 colors:
   light:
