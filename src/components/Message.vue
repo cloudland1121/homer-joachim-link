@@ -52,7 +52,7 @@ export default {
         }
         else {
           content = await this.downloadMessage(this.item.url);
-          fetchedMessage["content"] = JSON.stringify(content);
+          fetchedMessage["content"] = content;
         }
 
         // keep the original config value if no value is provided by the endpoint
