@@ -233,7 +233,7 @@ export default {
     getConfig: function (path = "assets/config.yml") {
       return fetch(path).then((response) => {
         if (response.status == 404 || response.redirected) {
-          this.configNotFound = true;
+          // this.configNotFound = true;
           return {};
         }
 
