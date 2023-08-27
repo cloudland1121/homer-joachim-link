@@ -9,7 +9,7 @@
     <div
       v-if="message.content"
       class="message-body"
-      v-html="message.content" + "message.region"
+      v-html="message.content"
     ></div>
   </article>
 </template>
