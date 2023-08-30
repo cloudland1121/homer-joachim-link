@@ -84,6 +84,26 @@ links: [] # Allows for navbar (dark mode, layout, and search) without any links
 # First level array represents a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
+  - name: "joachim.link"
+    logo: "assets/tools/sample2.png"
+    # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
+    # logo: "path/to/logo"
+    items:
+      - name: "Console"
+        logo: "assets/tools/link.png"
+        subtitle: "原 joachim.link"
+        tag: "link"
+        url: "https://console.joachim.link"
+      - name: "Wiki"
+        logo: "assets/tools/link.png"
+        subtitle: ""
+        tag: "link"
+        url: "https://home.joachim.link"
+      - name: "Share Doc"
+        logo: "assets/tools/link.png"
+        subtitle: ""
+        tag: "link"
+        url: "https://share.joachim.link"
   - name: "Cloud Console"
     icon: "fa fa-cloud"
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
@@ -212,12 +232,6 @@ services:
         subtitle: "www.cloudping.cloud"
         tag: "tools"
         url: "https://www.cloudping.cloud/"
-        target: "_blank"
-      - name: "IP Checker"
-        logo: "assets/tools/link.png"
-        subtitle: "ip.skk.moe"
-        tag: "tools"
-        url: "https://ip.skk.moe/"
         target: "_blank"
       - name: "IP Checker"
         logo: "assets/tools/link.png"
