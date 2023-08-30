@@ -98,7 +98,7 @@ services:
         logo: "assets/tools/link.png"
         subtitle: ""
         tag: "link"
-        url: "https://home.joachim.link"
+        url: "https://wiki.joachim.link"
       - name: "Share Doc"
         logo: "assets/tools/link.png"
         subtitle: ""
