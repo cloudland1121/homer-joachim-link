@@ -5,7 +5,7 @@ title: "Links Library"
 subtitle: "@JoachimWONG"
 
 header: true
-#footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+footer: ''
 
 columns: 3
 connectivityCheck: true
@@ -84,22 +84,23 @@ links: [] # Allows for navbar (dark mode, layout, and search) without any links
 # First level array represents a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
+  # joachim.link
   - name: "joachim.link"
     logo: "assets/tools/sample2.png"
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
     # logo: "path/to/logo"
     items:
-      - name: "Console"
-        logo: "assets/tools/link.png"
-        subtitle: "原 joachim.link"
-        tag: "link"
-        url: "https://console.joachim.link"
-        target: "_blank"
       - name: "Wiki"
         logo: "assets/tools/link.png"
         subtitle: ""
         tag: "link"
         url: "https://wiki.joachim.link"
+        target: "_blank"
+      - name: "Console"
+        logo: "assets/tools/link.png"
+        subtitle: "原 joachim.link"
+        tag: "link"
+        url: "https://console.joachim.link"
         target: "_blank"
       - name: "Share Doc"
         logo: "assets/tools/link.png"
@@ -107,6 +108,7 @@ services:
         tag: "link"
         url: "https://share.joachim.link"
         target: "_blank"
+  # Weather
   - name: "Weather"
     logo: "assets/tools/weather.png"
     items:
@@ -152,6 +154,7 @@ services:
         units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
         background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
         type: "OpenWeather"
+  # Cloud Console
   - name: "Cloud Console"
     icon: "fa fa-cloud"
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
@@ -194,6 +197,7 @@ services:
         tag: "aws"
         url: "https://wxd.awsapps.com/start/"
         target: "_blank"
+  # AWS Training
   - name: "AWS Training"
     logo: "assets/tools/awstc.webp"
     items:
@@ -239,21 +243,7 @@ services:
         tag: "aws-tc"
         url: "https://aws.amazon.com/cn/certification/"
         target: "_blank"
-#  - name: "Courses"
-#    logo: "assets/tools/books.webp"
-#    items:
-#      - name: "AWS 小白书"
-#        logo: "assets/tools/link.png"
-#        subtitle: "未完结"
-#        tag: "aws-tc"
-#        url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3072229903911878659#wechat_redirect"
-#        target: "_blank"
-#      - name: "EKS 简明教程"
-#        logo: "assets/tools/link.png"
-#        subtitle: "未完结"
-#        tag: "aws-tc"
-#        url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3071844734247895042#wechat_redirect"
-#        target: "_blank"
+  # Tools
   - name: "Tools"
     logo: "assets/tools/sample2.png"
     items:
@@ -305,6 +295,22 @@ services:
         tag: "tools"
         url: "https://github.com/LiLittleCat/awesome-free-chatgpt"
         target: "_blank"
+#  - name: "Courses"
+#    logo: "assets/tools/books.webp"
+#    items:
+#      - name: "AWS 小白书"
+#        logo: "assets/tools/link.png"
+#        subtitle: "未完结"
+#        tag: "aws-tc"
+#        url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3072229903911878659#wechat_redirect"
+#        target: "_blank"
+#      - name: "EKS 简明教程"
+#        logo: "assets/tools/link.png"
+#        subtitle: "未完结"
+#        tag: "aws-tc"
+#        url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3071844734247895042#wechat_redirect"
+#        target: "_blank"
+
   
 
 
