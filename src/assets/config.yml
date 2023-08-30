@@ -107,6 +107,51 @@ services:
         tag: "link"
         url: "https://share.joachim.link"
         target: "_blank"
+  - name: "Weather"
+    logo: "assets/tools/weather.png"
+    items:
+      - name: "Zhuhai"
+        location: "珠海" # your location.
+        locationId: "1790437" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+      - name: "Macau"
+        location: "澳门" # your location.
+        locationId: "1821275" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+      - name: "beijing"
+        location: "北京" # your location.
+        locationId: "1816670" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+      - name: "shanghai"
+        location: "上海" # your location.
+        locationId: "1796236" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+      - name: "shenzhen"
+        location: "深圳" # your location.
+        locationId: "1795565" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
+      - name: "guangzhou"
+        location: "广州" # your location.
+        locationId: "1809858" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
   - name: "Cloud Console"
     icon: "fa fa-cloud"
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
@@ -194,21 +239,21 @@ services:
         tag: "aws-tc"
         url: "https://aws.amazon.com/cn/certification/"
         target: "_blank"
-  - name: "Courses"
-    logo: "assets/tools/books.webp"
-    items:
-      - name: "AWS 小白书"
-        logo: "assets/tools/link.png"
-        subtitle: "未完结"
-        tag: "aws-tc"
-        url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3072229903911878659#wechat_redirect"
-        target: "_blank"
-      - name: "EKS 简明教程"
-        logo: "assets/tools/link.png"
-        subtitle: "未完结"
-        tag: "aws-tc"
-        url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3071844734247895042#wechat_redirect"
-        target: "_blank"
+#  - name: "Courses"
+#    logo: "assets/tools/books.webp"
+#    items:
+#      - name: "AWS 小白书"
+#        logo: "assets/tools/link.png"
+#        subtitle: "未完结"
+#        tag: "aws-tc"
+#        url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3072229903911878659#wechat_redirect"
+#        target: "_blank"
+#      - name: "EKS 简明教程"
+#        logo: "assets/tools/link.png"
+#        subtitle: "未完结"
+#        tag: "aws-tc"
+#        url: "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTY3MDM3NQ==&action=getalbum&album_id=3071844734247895042#wechat_redirect"
+#        target: "_blank"
   - name: "Tools"
     logo: "assets/tools/sample2.png"
     items:
@@ -260,51 +305,7 @@ services:
         tag: "tools"
         url: "https://github.com/LiLittleCat/awesome-free-chatgpt"
         target: "_blank"
-  - name: "Weather"
-    logo: "assets/tools/weather.png"
-    items:
-      - name: "Zhuhai"
-        location: "珠海" # your location.
-        locationId: "1790437" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
-        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-      - name: "Macau"
-        location: "澳门" # your location.
-        locationId: "1821275" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
-        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-      - name: "beijing"
-        location: "北京" # your location.
-        locationId: "1816670" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
-        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-      - name: "shanghai"
-        location: "上海" # your location.
-        locationId: "1796236" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
-        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-      - name: "shenzhen"
-        location: "深圳" # your location.
-        locationId: "1795565" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
-        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
-      - name: "guangzhou"
-        location: "广州" # your location.
-        locationId: "1809858" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        apikey: "84090a871dcfcdc1f11bbc68d91dc1e2" # insert your own API key here. Request one from https://openweathermap.org/api.
-        units: "metric" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "circle" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
+  
 
 
 proxy: ~
