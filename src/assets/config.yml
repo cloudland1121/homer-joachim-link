@@ -108,6 +108,12 @@ services:
         tag: "link"
         url: "https://share.joachim.link"
         target: "_blank"
+      - name: "GPT"
+        logo: "assets/tools/link.png"
+        subtitle: ""
+        tag: "link"
+        url: "https://chat.joachim.link"
+        target: "_blank"
   # Weather
   - name: "Weather"
     logo: "assets/tools/weather.png"
