@@ -259,6 +259,12 @@ services:
   - name: "Tools"
     logo: "assets/tools/sample2.png"
     items:
+      - name: "AWS CLI Builder"
+        logo: "assets/tools/link.png"
+        subtitle: "https://awsclibuilder.com"
+        tag: "tools"
+        url: "https://awsclibuilder.com"
+        target: "_blank"
       - name: "Timer"
         logo: "assets/tools/link.png"
         subtitle: "timer.joachim.link"
